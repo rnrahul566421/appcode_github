@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'Testing_Pools'
+  vmImage: 'rxn95606'
 
 variables:
   solution: '**/*.sln'
